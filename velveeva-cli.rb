@@ -5,9 +5,9 @@
 class VelveevaCli < Formula
   desc ""
   homepage ""
-  url "https://github.com/gacomm/velveeva-cli/archive/1.0.2.tar.gz"
-  version "1.0.2"
-  sha256 "417728c013b35a7a13de82c520605f6f292c92091a60431d97719457902f97c6"
+  url "https://github.com/gacomm/velveeva-cli/archive/1.0.4.tar.gz"
+  version "1.0.4"
+  sha256 "51916f5aff82bab339a2de976eb8c315c254f1fc30c7aecd9a521b3ef79ddfbd"
 
   # depends_on "docker"
   # depends_on "docker-machine"
