@@ -6,14 +6,10 @@ class VelveevaCli < Formula
   desc ""
   homepage ""
   url "https://github.com/gacomm/velveeva-cli/archive/1.0.5.tar.gz"
-  version "1.0.5"
-  sha256 "5e32eeef919422cf6531ecdcbf9aea133bd82f1aa20bb9b5dc8fc68bddabf451"
-
-  # depends_on "docker"
-  # depends_on "docker-machine"
+  version "1.0.6"
+  sha256 "4370463b03b3d76eef2cceaf3405da4869701d9f244cd84817281ace297ac83b"
   
   def install
-  	# we should do the initial docker pull here, but for some reason the system call doesn't work
     bin.install "velveeva"
   end
 end
