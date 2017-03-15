@@ -5,9 +5,9 @@
 class VelveevaCli < Formula
   desc ""
   homepage ""
-  url "https://github.com/drewsynan/velveeva-cli/archive/1.1.1.tar.gz"
-  version "1.1.1"
-  sha256 "caa80c89134967de80550568210bef2221966cd7fddf5d486198cf2193dfa291"
+  url "https://github.com/drewsynan/velveeva-cli/archive/1.1.2.tar.gz"
+  version "1.1.2"
+  sha256 "16f4990a314ac60b348b1cc16f343a5e4783cd41ff1f885c2c673d4607565d4d"
   
   def install
     bin.install "velveeva"
